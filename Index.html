@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DesafioMobile</title>
-    <link rel="stylesheet" href="./Style.css">
+    <title>Convert Money</title>
+    <link rel="stylesheet" href="./Style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div>
-        <header>
-            <a class="link-header">Home</a>
-            <a class="link-header">About</a>
-            <a class="link-header">Products</a>
-            <a class="link-header">Service</a>
-            <a class="link-header">Contact</a>
+    <img class="logo" src="./assents/logo.gif" alt="gif-logo-convert-money" />
 
-            <button class="button-header">Login</button>
-        </header>
+    <main>
+        <label>
+            Converter <b>DE</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
 
-        <main>
-            <Img src="./assents/Illustration 2.png" alt="Foto-desafioMobile" class="logo-image">
-            <section>
-                <h1>WE CARE</h1>
-                <h2>About Your Pet</h2>
-                <p>Lorem ipsum dolor sit amet consecteturad
-                    cing elit aenean a justo quis mauris hendri
-                    pellentesque eget at ipsumuis cursusturpi.</p>
-                <button class="button-low">EXPLORE</button>
-            </section>
+        <label>
+            Converter <b>PARA</b>
+            <select>
+                <option>US$ Dólar Americano</option>
+                <option>€ Euro</option>
+            </select>
+        </label>
 
-        </main>
-    </div>
+        <label>
+            Valor
+            <input placeholder="R$ 10.000,00" />
+        </label>
+
+        <button>Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img src="./assents/Real.png" alt="logo-real-brasileiro" />
+                <p class="currency" > Real </p>
+                <p class="currency-value" >R$ 0,00</p>
+
+            </div>
+
+            <img class="arrow-img" src="./assents/Arrow.png" alt="logo-seta-conversao">
+
+            <div class="currency-box">
+                <img src="./assents/dolar.png" alt="logo-dolar-americano" />
+                <p class="currency"> Dólar </p>
+                <p class="currency-value">US$ 0.00</p>
+            </div>
+           
+        </section>
+    </main>
 
 </body>
 

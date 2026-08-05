@@ -12,14 +12,20 @@ body {
 
 main {
     width: 375px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    margin: 0 auto 40px;
+    background: rgba(17, 25, 40, 0.72);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 24px;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    margin: 85px auto 40px;
     padding: 44px 24px 23px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, .35);
+    transition: .3s;
 }
 
 label {
-    color: #777777;
+    color:#BFBFBF;
     font-size: 14px;
     font-weight: 400;
 
@@ -27,17 +33,19 @@ label {
 
 select,
 input {
-    background: #FFFFFF;
-    border: 1px solid #BBBBBB;
-    border-radius: 4px;
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 12px;
     height: 48px;
     width: 100%;
     margin-bottom: 24px;
     padding-left: 18px;
     font-size: 16px;
     font-weight: 700;
-    color: #555555;
+    color: #FFFFFF;
     cursor: pointer;
+    outline: none;
+    transition: .3s;
 }
 
 input {
@@ -45,32 +53,41 @@ input {
 }
 
 button {
-    background: #772FD3;
-    border-radius: 5px;
+
+    background: linear-gradient(90deg,
+            #6C2CF4,
+            #9A4DFF);
+    border-radius: 12px;
     width: 100%;
-    height: 48px;
+    height: 50px;
     border: none;
     cursor: pointer;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
-    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    transition: .3s;
 }
 
 button:hover {
     opacity: 0.8;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 25px rgba(140, 90, 255, .7);
 }
 
 button:active {
     opacity: 0.6;
+    transform: scale(.98);
 }
 
 section {
-    border: 1px solid #772FD3;
-    border-radius: 20px;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .12);
+    border-radius: 18px;
     margin-top: 36px;
-    padding: 12px;
-
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,3 +115,7 @@ section {
     color: #777777;
     font-size: 14px;
 }
+
+.currency-select option{
+    background-color: #1f2937;
+    color: white;}

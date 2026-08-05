@@ -7,13 +7,7 @@
 }
 
 body {
-    background-color: #8A51FC;
-}
-
-.logo {
-    width: 300px;
-    margin: 20px auto;
-    display: block;
+    background-image: url(./assents/background.png);
 }
 
 main {
@@ -60,6 +54,7 @@ button {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
@@ -92,7 +87,8 @@ section {
     gap: 4px;
 }
 
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;

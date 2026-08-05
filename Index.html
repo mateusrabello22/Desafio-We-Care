@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convert Money</title>
+    <script src="./Scripts.js" defer></script>
     <link rel="stylesheet" href="./Style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,16 +33,16 @@
 
         <label>
             Valor
-            <input placeholder="R$ 10.000,00" />
+            <input class="input-currency" placeholder="R$ 10.000,00" />
         </label>
 
-        <button>Converter</button>
+        <button class="convert-button">Converter</button>
 
         <section>
             <div class="currency-box">
                 <img src="./assents/Real.png" alt="logo-real-brasileiro" />
-                <p class="currency" > Real </p>
-                <p class="currency-value" >R$ 0,00</p>
+                <p class="currency"> Real </p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
 
             </div>
 
@@ -52,7 +53,7 @@
                 <p class="currency"> Dólar </p>
                 <p class="currency-value">US$ 0.00</p>
             </div>
-           
+
         </section>
     </main>
 

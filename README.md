@@ -11,6 +11,8 @@
 <img src="https://github.com/mateusrabello22/Projeto-Convert-Money/blob/main/assents/Captura%20de%20tela%202026-08-06%20115215.png?raw=true" alt="Imagem-do-conversor"/>
 <br>
 <br>
-<p> Esse é um projeto RESPONSIVO e pode ser utilizado tanto no DESKTOP como em dispositivos MOBILE </p>
+<p> Esse é um projeto RESPONSIVO e pode ser utilizado tanto no DESKTOP como em dispositivos MOBILE ⬇️ </p>
 <br>
+<br>
+<img src="https://github.com/mateusrabello22/Projeto-Convert-Money/blob/main/assents/Captura%20de%20tela%202026-08-06%20115243.png?raw=true" alt ="Imagem-do-site-responsivo"/>
 

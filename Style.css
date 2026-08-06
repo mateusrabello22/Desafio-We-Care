@@ -87,14 +87,14 @@ button {
 }
 
 button:hover {
-   button:hover{
+    button:hover {
 
-    transform:translateY(-3px);
+        transform: translateY(-3px);
 
-    box-shadow:
-        0 0 30px rgba(140,90,255,.7);
+        box-shadow:
+            0 0 30px rgba(140, 90, 255, .7);
 
-}
+    }
 }
 
 button:active {
@@ -131,7 +131,7 @@ section {
 }
 
 .currency {
-    color:#D8D8D8;
+    color: #D8D8D8;
     font-size: 14px;
 }
 

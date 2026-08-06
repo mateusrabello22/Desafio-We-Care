@@ -5,6 +5,10 @@ async function convertValues() {
 
     try {
 
+        convertButton.innerHTML = "🔄 Buscando cotação..."
+        convertButton.disabled = true
+        await new Promise(resolve => setTimeout(resolve, 1000))
+
         const data = await fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,BTC-BRL")
         const currencies = await data.json()
 
@@ -56,7 +60,13 @@ async function convertValues() {
             currency: "BRL"
         }).format(inputCurrencyValue)
 
+        convertButton.innerHTML = "Converter"
+        convertButton.disabled = false
+
     } catch (error) {
+
+        convertButton.innerHTML = "Converter"
+        convertButton.disabled = false
 
         alert("Não foi possível obter a cotação.")
 
